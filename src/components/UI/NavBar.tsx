@@ -25,13 +25,13 @@ const NavBar: React.FC = ({ children }) => {
             >
                 <Box display="flex" justifyContent="center">
                     <Link href="/">
-                        <PsychologyIcon sx={{ fontSize: 50 }} />
+                        <PsychologyIcon sx={{ fontSize: 55 }} />
                     </Link>
                 </Box>
                 <Flex
                     // bgColor={"red"}
                     height="100%"
-                    width="30%"
+                    width="20%"
                     alignItems="center"
                     justifyContent={"space-evenly"}
                 >
