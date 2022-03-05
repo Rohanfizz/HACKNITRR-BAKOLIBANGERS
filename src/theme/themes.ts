@@ -8,9 +8,15 @@ export const theme1 = extendTheme({
         white: "#fff",
         gray: {
             50: "#f7fafc",
-            // ...
+
             900: "#171923",
         },
+        light: "green.200",
+        lightest: "green.100",
+        medium: "green.300",
+        dark: "green.400",
+        darker: "green.500",
+        darkest: "green.600",
         // ...
     },
     fonts: {
