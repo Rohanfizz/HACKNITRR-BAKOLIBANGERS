@@ -61,6 +61,7 @@ const NavBar: React.FC = ({ children }) => {
                         <Button
                             bgColor="transparent"
                             _hover={{ bg: "gray.900" }}
+                            onClick={onClickHandler}
                         >
                             <LogoutIcon sx={{ fontSize: 40 }} />
                         </Button>
@@ -68,7 +69,7 @@ const NavBar: React.FC = ({ children }) => {
                 </Flex>
             </Flex>
         </Box>
-        <Flex
+        {/* <Flex
           // bgColor={"red"}
           height="100%"
           width="20%"
@@ -90,7 +91,7 @@ const NavBar: React.FC = ({ children }) => {
               <LogoutIcon sx={{ fontSize: 40 }} />
             </Button>
           </Box>
-        </Flex>
+        </Flex> */}
 
     </>
   );
