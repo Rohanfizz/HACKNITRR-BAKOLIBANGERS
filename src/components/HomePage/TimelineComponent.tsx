@@ -10,7 +10,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
-import RepeatIcon from "@mui/icons-material/Repeat";
+import DoneAllIcon from '@mui/icons-material/DoneAll';
 import Typography from "@mui/material/Typography";
 
 export default function TimelineComponent() {
@@ -19,14 +19,14 @@ export default function TimelineComponent() {
         <ThemeProvider theme={theme}>
             <Timeline position="alternate">
                 <TimelineItem>
-                    <TimelineOppositeContent
+                    {/* <TimelineOppositeContent
                         sx={{ m: "auto 0" }}
                         align="right"
                         variant="body2"
                         color="text.secondary"
                     >
                         9:30 am
-                    </TimelineOppositeContent>
+                    </TimelineOppositeContent> */}
                     <TimelineSeparator>
                         <TimelineConnector />
                         <TimelineDot>
@@ -36,19 +36,19 @@ export default function TimelineComponent() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "12px", px: 2 }}>
                         <Typography variant="h6" component="span">
-                            Eat
+                            Register
                         </Typography>
-                        <Typography>Because you need strength</Typography>
+                        <Typography>It&apos;s Free!</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
-                    <TimelineOppositeContent
+                    {/* <TimelineOppositeContent
                         sx={{ m: "auto 0" }}
                         variant="body2"
                         color="text.secondary"
                     >
                         10:00 am
-                    </TimelineOppositeContent>
+                    </TimelineOppositeContent> */}
                     <TimelineSeparator>
                         <TimelineConnector />
                         <TimelineDot color="primary">
@@ -58,40 +58,40 @@ export default function TimelineComponent() {
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "12px", px: 2 }}>
                         <Typography variant="h6" component="span">
-                            Code
+                            Assess Yourself
                         </Typography>
-                        <Typography>Because it&apos;s awesome!</Typography>
+                        <Typography>Choose From the Best Interactive Tests</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator>
                         <TimelineConnector />
                         <TimelineDot color="primary" variant="outlined">
-                            <LocalHospitalIcon />
+                            <DoneAllIcon />
                         </TimelineDot>
                         <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "12px", px: 2 }}>
                         <Typography variant="h6" component="span">
-                            Sleep
+                            Check Result
                         </Typography>
-                        <Typography>Because you need rest</Typography>
+                        <Typography>Because It&apos;s Simple</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineSeparator>
                         <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
                         <TimelineDot color="secondary">
-                            <RepeatIcon />
+                            <LocalHospitalIcon />
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "12px", px: 2 }}>
                         <Typography variant="h6" component="span">
-                            Repeat
+                            Get Support
                         </Typography>
                         <Typography>
-                            Because this is the life you love!
+                        Because it&apos;s Needed!
                         </Typography>
                     </TimelineContent>
                 </TimelineItem>

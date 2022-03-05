@@ -11,7 +11,7 @@ const NavBar: React.FC = ({ children }) => {
         <Box
             w="100%"
             h="3.5rem"
-            bgColor={"darker"}
+            bgColor={"gray.700"}
             fontFamily="heading"
             color="white"
             fontSize="2xl"
