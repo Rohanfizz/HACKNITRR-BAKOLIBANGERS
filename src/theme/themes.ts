@@ -1,4 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
+import React from "react";
 
 // example theme object
 export const theme1 = extendTheme({
@@ -17,12 +18,14 @@ export const theme1 = extendTheme({
         dark: "#48BB78",
         darker: "#38A169",
         darkest: "#2F855A",
+        tealLight:"#B2F5EA"
         // ...
     },
     fonts: {
         body: "system-ui, sans-serif",
         heading: "Georgia, serif",
         mono: "Menlo, monospace",
+        
     },
     fontSizes: {
         xs: "0.75rem",
