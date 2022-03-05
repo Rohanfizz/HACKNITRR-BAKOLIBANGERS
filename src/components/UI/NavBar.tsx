@@ -1,8 +1,10 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Button, Flex } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
 import FaceIcon from "@mui/icons-material/Face";
 import PsychologyIcon from "@mui/icons-material/Psychology";
+import LogoutIcon from "@mui/icons-material/Logout";
+import RoomIcon from "@mui/icons-material/Room";
 
 const NavBar: React.FC = ({ children }) => {
     return (
@@ -17,11 +19,10 @@ const NavBar: React.FC = ({ children }) => {
             <Flex
                 justifyContent={"space-between"}
                 paddingLeft="2rem"
-                paddingRight="2rem"
+                paddingRight="0rem"
                 alignItems="center"
                 h="100%"
             >
-                {/* <Image src="" alt="LOGO" width="1rem" height="1rem"/> */}
                 <Box display="flex" justifyContent="center">
                     <Link href="/">
                         <PsychologyIcon sx={{ fontSize: 50 }} />
@@ -34,15 +35,20 @@ const NavBar: React.FC = ({ children }) => {
                     alignItems="center"
                     justifyContent={"space-evenly"}
                 >
-                    <Box>
+                    <Box display="flex" alignItems={"center"}>
                         <Link href="/therapists-near-you">
-                            Therapists Near you
+                            <RoomIcon sx={{ fontSize: 40 }} />
                         </Link>
                     </Box>
-                    <Box>
+                    <Box display="flex" alignItems={"center"}>
                         <Link href="/profile">
                             <FaceIcon sx={{ fontSize: 40 }} />
                         </Link>
+                    </Box>
+                    <Box>
+                        <Button bgColor="transparent">
+                            <LogoutIcon sx={{ fontSize: 40 }} />
+                        </Button>
                     </Box>
                 </Flex>
             </Flex>
