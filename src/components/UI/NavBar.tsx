@@ -34,7 +34,7 @@ const NavBar: React.FC = ({ children }) => {
                     width="20%"
                     alignItems="center"
                     justifyContent={"space-evenly"}
-                >
+                >   
                     <Box display="flex" alignItems={"center"} cursor="pointer">
                         <Link href="/therapists-near-you">
                             <RoomIcon sx={{ fontSize: 40 }} />
