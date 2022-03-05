@@ -17,7 +17,6 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Image from "next/image";
-import { url } from "inspector";
 
 function Copyright(props: any) {
   return (
@@ -98,7 +97,6 @@ export default function Login() {
       <Grid container component="main" sx={{ height: "100vh" }}>
         <CssBaseline />
         <Grid
-        
           item
           xs={false}
           sm={4}
@@ -112,7 +110,17 @@ export default function Login() {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-        ><Image src='/image.jpeg' alt='Loading...' height='100%' width='100%'/></Grid>
+        >
+          <Box width='100%' height='10%'>
+            <Image
+              src="/image.jpeg"
+              alt="Loading..."
+              height="60%"
+              width="80%"  
+              layout="responsive"
+            />
+          </Box>
+        </Grid>
         <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
           <Box
             sx={{
