@@ -1,9 +1,11 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 
 const Footer: React.FC = ({ children }) => {
     return (
         <>
-            <Box></Box>
+            <Flex height="2rem" bgColor="darker">
+                
+            </Flex>
         </>
     );
 };

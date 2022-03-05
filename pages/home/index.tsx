@@ -1,8 +1,11 @@
+import { Box } from '@chakra-ui/react'
 import { NextPage } from 'next'
 
 const Home: NextPage = ()=> {
   return (
-    <div>Home</div>
+    <Box w="100%" h="100%" bgColor="lighter">
+
+    </Box>
   )
 }
 
