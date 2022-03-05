@@ -11,12 +11,12 @@ export const theme1 = extendTheme({
 
             900: "#171923",
         },
-        light: "green.200",
-        lightest: "green.100",
-        medium: "green.300",
-        dark: "green.400",
-        darker: "green.500",
-        darkest: "green.600",
+        light: "#C6F6D5",
+        lightest: "#9AE6B4",
+        medium: "#68D391",
+        dark: "#48BB78",
+        darker: "#38A169",
+        darkest: "#2F855A",
         // ...
     },
     fonts: {
