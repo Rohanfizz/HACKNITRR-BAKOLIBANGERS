@@ -6,7 +6,7 @@ const Layout: React.FC = ({ children }) => {
     return (
         <>
             <NavBar />
-            <Box width="100%" height="calc(100vh - 5.5rem)">
+            <Box width="100%" height="calc(100vh - 5.5rem)" overflow={"auto"}>
             {children}
             </Box>
             <Footer />
