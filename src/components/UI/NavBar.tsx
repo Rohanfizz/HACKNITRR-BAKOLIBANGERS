@@ -23,8 +23,8 @@ const NavBar: React.FC = ({ children }) => {
                 alignItems="center"
                 h="100%"
             >
-                <Box display="flex" justifyContent="center">
-                    <Link href="/">
+                <Box display="flex" justifyContent="center" cursor="pointer">
+                    <Link href="/home" >
                         <PsychologyIcon sx={{ fontSize: 55 }} />
                     </Link>
                 </Box>
@@ -35,12 +35,12 @@ const NavBar: React.FC = ({ children }) => {
                     alignItems="center"
                     justifyContent={"space-evenly"}
                 >
-                    <Box display="flex" alignItems={"center"}>
+                    <Box display="flex" alignItems={"center"} cursor="pointer">
                         <Link href="/therapists-near-you">
                             <RoomIcon sx={{ fontSize: 40 }} />
                         </Link>
                     </Box>
-                    <Box display="flex" alignItems={"center"}>
+                    <Box display="flex" alignItems={"center"} cursor="pointer">
                         <Link href="/profile">
                             <FaceIcon sx={{ fontSize: 40 }} />
                         </Link>
