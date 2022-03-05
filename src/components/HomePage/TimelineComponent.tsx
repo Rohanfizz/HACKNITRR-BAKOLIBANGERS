@@ -12,6 +12,7 @@ import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import DoneAllIcon from '@mui/icons-material/DoneAll';
 import Typography from "@mui/material/Typography";
+import { Box } from "@chakra-ui/react";
 
 export default function TimelineComponent() {
     const theme = createMuiTheme();
@@ -35,7 +36,7 @@ export default function TimelineComponent() {
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "12px", px: 2 }}>
-                        <Typography variant="h6" component="span">
+                        <Typography variant="h5" component="span">
                             Register
                         </Typography>
                         <Typography>It&apos;s Free!</Typography>
@@ -56,8 +57,8 @@ export default function TimelineComponent() {
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent sx={{ py: "12px", px: 2 }}>
-                        <Typography variant="h6" component="span">
+                    <TimelineContent sx={{ py: "50px", px: 2 }}>
+                        <Typography variant="h5" component="span">
                             Assess Yourself
                         </Typography>
                         <Typography>Choose From the Best Interactive Tests</Typography>
@@ -71,8 +72,8 @@ export default function TimelineComponent() {
                         </TimelineDot>
                         <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
                     </TimelineSeparator>
-                    <TimelineContent sx={{ py: "12px", px: 2 }}>
-                        <Typography variant="h6" component="span">
+                    <TimelineContent sx={{ py: "50px", px: 2 }}>
+                        <Typography variant="h5" component="span">
                             Check Result
                         </Typography>
                         <Typography>Because It&apos;s Simple</Typography>
@@ -86,8 +87,8 @@ export default function TimelineComponent() {
                         </TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
-                    <TimelineContent sx={{ py: "12px", px: 2 }}>
-                        <Typography variant="h6" component="span">
+                    <TimelineContent sx={{ py: "50px", px: 2 }}>
+                        <Typography variant="h5" component="span">
                             Get Support
                         </Typography>
                         <Typography>
