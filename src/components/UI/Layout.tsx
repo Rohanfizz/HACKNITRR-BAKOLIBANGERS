@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 
 const Layout: React.FC = ({ children }) => {
     const router = useRouter();
-    const isLoginSignup = router.pathname === "/";
+    const isLoginSignup = router.pathname === "/" || router.pathname ==="/signup";
     return (
         <>
             {!isLoginSignup && <NavBar />}

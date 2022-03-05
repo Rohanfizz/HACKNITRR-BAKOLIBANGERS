@@ -46,7 +46,10 @@ const NavBar: React.FC = ({ children }) => {
                         </Link>
                     </Box>
                     <Box>
-                        <Button bgColor="transparent">
+                        <Button
+                            bgColor="transparent"
+                            _hover={{ bg: "gray.900" }}
+                        >
                             <LogoutIcon sx={{ fontSize: 40 }} />
                         </Button>
                     </Box>
