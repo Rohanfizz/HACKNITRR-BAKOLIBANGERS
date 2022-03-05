@@ -69,30 +69,6 @@ const NavBar: React.FC = ({ children }) => {
                 </Flex>
             </Flex>
         </Box>
-        {/* <Flex
-          // bgColor={"red"}
-          height="100%"
-          width="20%"
-          alignItems="center"
-          justifyContent={"space-evenly"}
-        >
-          <Box display="flex" alignItems={"center"}>
-            <Link href="/therapists-near-you">
-              <RoomIcon sx={{ fontSize: 40 }} />
-            </Link>
-          </Box>
-          <Box display="flex" alignItems={"center"}>
-            <Link href="/profile">
-              <FaceIcon sx={{ fontSize: 40 }} />
-            </Link>
-          </Box>
-          <Box>
-            <Button bgColor="transparent" onClick={onClickHandler}>
-              <LogoutIcon sx={{ fontSize: 40 }} />
-            </Button>
-          </Box>
-        </Flex> */}
-
     </>
   );
 };
